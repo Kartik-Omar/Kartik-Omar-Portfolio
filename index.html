@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartik Omar — 2D &amp; 3D Motion Designer Specializing in Sound Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <!-- html2pdf library for direct one-click PDF resume download -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Fixed Bottom macOS-Style Floating Dock -->
+  <nav id="floating-dock" aria-label="Primary Navigation">
+    <a href="#hero" class="dock-item dock-blue" title="Home">⌂</a>
+    <a href="#about" class="dock-item dock-indigo" title="About">i</a>
+    <a href="#projects" class="dock-item dock-amber" title="Projects">★</a>
+    <a href="#services" class="dock-item dock-emerald" title="Services">◈</a>
+    <a href="#resume" class="dock-item dock-rose" title="Resume">CV</a>
+    <span class="dock-divider"></span>
+    <a href="#contact" class="dock-item dock-dark" title="Let's Talk">✉</a>
+  </nav>
+
+  <!-- 01. Full-Bleed Scenic Hero Section -->
+  <header id="hero" class="scenic-hero">
+    <div class="hero-top-brand">KARTIK<sup>®</sup></div>
+
+    <div class="hero-stage-grid">
+      <!-- Left Glass Availability Pill -->
+      <div class="hero-left-col">
+        <div class="glass-status-card">
+          <span class="status-dot"></span>
+          <div>
+            <small>Available for work</small>
+            <strong>KARTIK — 2D &amp; 3D MOTION</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Center Display Headline + Safe-Positioned Paperclip Stickers -->
+      <div class="hero-center-block">
+        <span class="paper-sticker sticker-purple">
+          <span class="sticker-circle bg-purple">❖</span>
+          <span class="sticker-clip"></span>
+          2D Motion
+        </span>
+
+        <span class="paper-sticker sticker-pink">
+          <span class="sticker-circle bg-pink">♪</span>
+          <span class="sticker-clip"></span>
+          Sound Design
+        </span>
+
+        <span class="paper-sticker sticker-lime">
+          <span class="sticker-circle bg-lime">✦</span>
+          <span class="sticker-clip"></span>
+          AI 3D Visuals
+        </span>
+
+        <h1 class="hero-display">
+          MOTION THAT<br>
+          MAKES PEOPLE<br>
+          LOOK TWICE
+        </h1>
+
+        <div class="hero-cta-row">
+          <a href="#projects" class="btn-hero-light">Selected Work ↓</a>
+          <button onclick="downloadResumePDF()" class="btn-hero-glass">Download Resume PDF ↓</button>
+        </div>
+      </div>
+
+      <!-- Right Portrait Frame Placeholder -->
+      <div class="hero-right-col">
+        <div class="hero-portrait-card">
+          <span class="paperclip"></span>
+          <div class="portrait-frame-box">
+            <!-- Replace this placeholder div with <img src="portrait.jpg" alt="Kartik Omar" class="portrait-photo"> -->
+            <img src="portrait.jpg" alt="Kartik Omar" class="portrait-photo">
+          </div>
+          <div class="portrait-caption">
+            <span>DELHI NCR, IN</span>
+            <span>IIMB '29</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar: Tagline Left + Showreel Widget Right -->
+    <div class="hero-bottom-bar">
+      <div class="hero-bottom-left">
+        <p>— Not just visuals,<br>I make digital stories<br>sound &amp; feel alive.</p>
+      </div>
+
+      <a href="#projects" class="hero-reel-widget">
+        <div class="reel-thumb">▶</div>
+        <div class="reel-info">
+          <small>Showreel · 2026</small>
+          <strong>2D, 3D &amp; SOUND</strong>
+          <span>After Effects · Cinema 4D · Logic Pro</span>
+        </div>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- 02. Graph-Paper About & Tilted Metric Cards -->
+    <section id="about" class="grid-paper-section">
+      <div class="container">
+        <div class="section-header-styled">
+          <div class="folded-note-badge note-sky">
+            <span class="note-icon bg-blue">i</span>
+            <span class="note-clip"></span>
+            <span class="note-label">About</span>
+          </div>
+          <h2>I CRAFT MOTION<br>PEOPLE REMEMBER</h2>
+        </div>
+
+        <p class="lead-bio">
+          Hi, I'm a 2D &amp; 3D Motion Designer specializing in Sound Design. With 2+ years of commercial freelance production experience, I combine tactile 2D visuals and AI-assisted 3D workflows with cinematic sound design—paired with digital business strategy from IIM Bangalore.
+        </p>
+
+        <div class="center-cta">
+          <a href="#contact" class="btn-dark-pill">Start a project</a>
+        </div>
+
+        <!-- 4 Tilted Metric & Credential Cards -->
+        <div class="metric-cards-row">
+          <article class="metric-card tilt-ccw-1">
+            <h3>2+ Yrs</h3>
+            <strong>Commercial Production</strong>
+            <p>Independent motion and sound designer delivering end-to-end visual &amp; sonic post-production.</p>
+          </article>
+
+          <article class="metric-card tilt-cw-1">
+            <h3>Netflix</h3>
+            <strong>Motion Design Intern</strong>
+            <p>Contract Junior Motion Designer crafting kinetic typography and studio-aligned visual sequences.</p>
+          </article>
+
+          <article class="metric-card tilt-ccw-2">
+            <h3>3x</h3>
+            <strong>Certified Specialist</strong>
+            <p>Trained through School of Motion, Ben Marriott, and CalArts Graphic Design Specialization.</p>
+          </article>
+
+          <article class="metric-card tilt-cw-2">
+            <h3>IIMB</h3>
+            <strong>BBA DBE Undergraduate</strong>
+            <p>Digital Business &amp; Entrepreneurship at IIM Bangalore · Grade 12 ISC · 96.4% Grade 10 ICSE.</p>
+          </article>
+        </div>
+
+        <!-- Narrative Two-Column Story -->
+        <div class="about-narrative-grid">
+          <div class="paper-note-card">
+            <span class="note-tag">01 · Practice</span>
+            <p>
+              Over the past two years, I have worked professionally and independently as a motion and sound designer—delivering end-to-end visual and sonic post-production for commercial campaigns, SaaS launches, and documentary films.
+            </p>
+          </div>
+          <div class="paper-note-card">
+            <span class="note-tag">02 · Unified System</span>
+            <p>
+              Having interned as a Junior Motion Designer at Netflix on contract and trained through School of Motion, Ben Marriott, and CalArts, I approach motion and audio as a single cohesive system—pairing After Effects and Cinema 4D visuals with custom score and foley in Logic Pro.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03. Scenic Projects Showcase (6 Paper-Clipped Window Cards) -->
+    <section id="projects" class="scenic-projects-band">
+      <div class="container">
+        <div class="section-header-styled header-on-scenic">
+          <div class="folded-note-badge note-sky">
+            <span class="note-icon bg-blue">★</span>
+            <span class="note-clip"></span>
+            <span class="note-label">Projects</span>
+          </div>
+          <h2>PROJECTS THAT<br>TELL STORIES</h2>
+        </div>
+
+        <div class="projects-window-grid">
+          <article class="window-card tilt-ccw-1">
+            <span class="paperclip"></span>
+            <div class="window-screen">
+              <img src="work-1.jpg" alt="Project 01 - 3D Product Commercial" class="screen-img">
+            </div>
+            <div class="window-meta">
+              <strong>3D Product Commercial</strong>
+              <div class="mini-tags">
+                <span>Cinema 4D</span>
+                <span>Sound Design</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="window-card">
+            <span class="paperclip"></span>
+            <div class="window-screen">
+              <img src="work-2.jpg" alt="Project 02 - SaaS Product Explainer" class="screen-img">
+            </div>
+            <div class="window-meta">
+              <strong>SaaS Product Explainer</strong>
+              <div class="mini-tags">
+                <span>After Effects</span>
+                <span>2D Motion</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="window-card tilt-cw-1">
+            <span class="paperclip"></span>
+            <div class="window-screen">
+              <img src="work-3.jpg" alt="Project 03 - Fluid UI Interaction Reel" class="screen-img">
+            </div>
+            <div class="window-meta">
+              <strong>Fluid UI Interaction Reel</strong>
+              <div class="mini-tags">
+                <span>Figma</span>
+                <span>After Effects</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="window-card tilt-cw-1">
+            <span class="paperclip"></span>
+            <div class="window-screen">
+              <img src="work-4.jpg" alt="Project 04 - 2D Documentary Film" class="screen-img">
+            </div>
+            <div class="window-meta">
+              <strong>2D Documentary Film</strong>
+              <div class="mini-tags">
+                <span>Premiere Pro</span>
+                <span>Logic Pro</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="window-card">
+            <span class="paperclip"></span>
+            <div class="window-screen">
+              <img src="work-5.jpg" alt="Project 05 - AI-Assisted 3D Visuals" class="screen-img">
+            </div>
+            <div class="window-meta">
+              <strong>AI-Assisted 3D Visuals</strong>
+              <div class="mini-tags">
+                <span>Blender</span>
+                <span>Cinema 4D</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="window-card tilt-ccw-1">
+            <span class="paperclip"></span>
+            <div class="window-screen">
+              <img src="work-6.jpg" alt="Project 06 - Original Score & Foley Mix" class="screen-img">
+            </div>
+            <div class="window-meta">
+              <strong>Original Score &amp; Foley Mix</strong>
+              <div class="mini-tags">
+                <span>Logic Pro</span>
+                <span>Mixing</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04. Graph-Paper Interactive Dropdown Bars & Software Segregation -->
+    <section id="services" class="grid-paper-section">
+      <div class="container">
+        <div class="section-header-styled">
+          <div class="folded-note-badge note-sky">
+            <span class="note-icon bg-blue">📖</span>
+            <span class="note-clip"></span>
+            <span class="note-label">Services</span>
+          </div>
+          <h2>WHERE I<br>CAN HELP YOU</h2>
+        </div>
+
+        <div class="pastel-dropdown-stack">
+          <details class="pastel-dropdown bar-rose" open>
+            <summary>
+              <span>2D Motion Design</span>
+              <span class="drop-chevron">+</span>
+            </summary>
+            <div class="dropdown-body">
+              <p>Tactile frame-by-frame accents, kinetic typography, SaaS product launch explainers, and broadcast-grade motion systems crafted in <strong>After Effects</strong>.</p>
+              <div class="drop-tags">
+                <span>After Effects</span>
+                <span>Kinetic Type</span>
+                <span>SaaS Explainers</span>
+              </div>
+            </div>
+          </details>
+
+          <details class="pastel-dropdown bar-sky">
+            <summary>
+              <span>Sound Design &amp; Foley</span>
+              <span class="drop-chevron">+</span>
+            </summary>
+            <div class="dropdown-body">
+              <p>Bespoke foley layers, tactile UI micro-sounds, whooshes, impacts, and spatial audio sweetening engineered in <strong>Logic Pro</strong> so every frame hits with weight.</p>
+              <div class="drop-tags">
+                <span>Logic Pro</span>
+                <span>Custom Foley</span>
+                <span>Sonic Branding</span>
+              </div>
+            </div>
+          </details>
+
+          <details class="pastel-dropdown bar-lemon">
+            <summary>
+              <span>AI-Assisted 3D Modelling</span>
+              <span class="drop-chevron">+</span>
+            </summary>
+            <div class="dropdown-body">
+              <p>Rapid 3D look-development, hard-surface product renders, studio lighting, and camera animation combining AI-assisted asset generation with <strong>Cinema 4D</strong> and <strong>Blender</strong>.</p>
+              <div class="drop-tags">
+                <span>Cinema 4D</span>
+                <span>Blender</span>
+                <span>Product Renders</span>
+              </div>
+            </div>
+          </details>
+
+          <details class="pastel-dropdown bar-mint">
+            <summary>
+              <span>Video Editing &amp; Documentary</span>
+              <span class="drop-chevron">+</span>
+            </summary>
+            <div class="dropdown-body">
+              <p>Narrative pacing, commercial ad cuts, 2D historical documentary assembly, and color grading pipelines in <strong>Premiere Pro</strong>.</p>
+              <div class="drop-tags">
+                <span>Premiere Pro</span>
+                <span>Story Pacing</span>
+                <span>Color Workflow</span>
+              </div>
+            </div>
+          </details>
+
+          <details class="pastel-dropdown bar-lavender">
+            <summary>
+              <span>Music Production &amp; Mixing</span>
+              <span class="drop-chevron">+</span>
+            </summary>
+            <div class="dropdown-body">
+              <p>Original indie-pop composition, vocal arrangement, and multi-track mixing in <strong>Logic Pro</strong>.</p>
+              <div class="drop-tags">
+                <span>Logic Pro</span>
+              </div>
+            </div>
+          </details>
+        </div>
+
+        <div class="segregation-box">
+          <h3>Skills &amp; Production Applications</h3>
+          <div class="table-wrapper">
+            <table class="clean-table">
+              <thead>
+                <tr>
+                  <th>Core Skill</th>
+                  <th>Primary Applications</th>
+                  <th>Deliverables</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2D Motion Design</td>
+                  <td>After Effects</td>
+                  <td>Kinetic typography, brand animations, SaaS launch films</td>
+                </tr>
+                <tr>
+                  <td>Sound Design</td>
+                  <td>Logic Pro</td>
+                  <td>Custom foley, spatial transitions, trailer &amp; UI sound effects</td>
+                </tr>
+                <tr>
+                  <td>AI-Assisted 3D Modelling</td>
+                  <td>Cinema 4D, Blender</td>
+                  <td>3D product visualization, shaders, lighting, camera rigs</td>
+                </tr>
+                <tr>
+                  <td>Video Editing</td>
+                  <td>Premiere Pro</td>
+                  <td>Commercial cuts, 2D documentary pacing, color grading</td>
+                </tr>
+                <tr>
+                  <td>Music Production &amp; Mixing</td>
+                  <td>Logic Pro</td>
+                  <td>Original score, vocal arrangement, multi-track mixing</td>
+                </tr>
+                <tr>
+                  <td>Brand &amp; UI/UX Design</td>
+                  <td>Figma, Framer</td>
+                  <td>Design systems, interactive prototypes, web layouts</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05. Experience Cards + PDF Download Action + Formal CV -->
+    <section id="resume" class="grid-paper-section section-border-top">
+      <div class="container">
+        <div class="section-header-styled">
+          <div class="folded-note-badge note-sky">
+            <span class="note-icon bg-blue">CV</span>
+            <span class="note-clip"></span>
+            <span class="note-label">Credentials</span>
+          </div>
+          <h2>EXPERIENCE &amp;<br>RESUME SHEET</h2>
+        </div>
+
+        <div class="testimonial-cards-grid">
+          <article class="metric-card tilt-ccw-1">
+            <span class="mini-pill">2024 – Present</span>
+            <h3>Freelance Motion &amp; Sound Designer</h3>
+            <p>Independent commercial practice delivering end-to-end 2D/3D motion graphics, SaaS explainers, documentary edits, and custom audio mixes.</p>
+          </article>
+
+          <article class="metric-card">
+            <span class="mini-pill">Contract Internship</span>
+            <h3>Junior Motion Designer — Netflix</h3>
+            <p>Produced motion graphics sequences, kinetic typography, and promotional assets under studio brand standards and rapid turnaround schedules.</p>
+          </article>
+
+          <article class="metric-card tilt-cw-1">
+            <span class="mini-pill">March 2026 · Lucknow</span>
+            <h3>Live Audio &amp; FM Coordinator</h3>
+            <p>Managed FM radio translation frequencies and receiver equipment distribution for an 18,000-person live Isha Foundation event.</p>
+          </article>
+        </div>
+
+        <div class="resume-download-bar">
+          <p>Need a copy for your records? Click below to instantly generate and download a formal A4 PDF resume.</p>
+          <button onclick="downloadResumePDF()" class="btn-download-pdf">Download Resume as PDF ↓</button>
+        </div>
+
+        <!-- Embedded Formal Printable CV Sheet -->
+        <div id="resume-paper" class="formal-resume-paper">
+          <div class="cv-header">
+            <h3>KARTIK OMAR</h3>
+            <p class="cv-subtitle">2D &amp; 3D Motion Designer Specializing in Sound Design</p>
+            <p class="cv-links">
+              DELHI NCR, India ·
+              <a href="mailto:theomarkartik@gmail.com">theomarkartik@gmail.com</a> ·
+              <a href="https://github.com/Kartik-Omar" target="_blank" rel="noopener noreferrer">github.com/Kartik-Omar</a>
+            </p>
+          </div>
+
+          <div class="cv-section">
+            <h4>SUMMARY</h4>
+            <p>
+              2D &amp; 3D Motion Designer specializing in Sound Design with 2+ years of commercial freelance production experience and contract internship experience at Netflix. Combines tactile 2D motion, AI-assisted 3D visuals, and cinematic audio mixing with digital business strategy from IIM Bangalore.
+            </p>
+          </div>
+
+          <div class="cv-section">
+            <h4>EXPERIENCE &amp; LEADERSHIP</h4>
+            <div class="cv-row">
+              <strong>Freelance Motion &amp; Sound Designer — Independent</strong>
+              <span>2024 – Present</span>
+            </div>
+            <ul>
+              <li>Delivered end-to-end visual and sonic post-production for commercial campaigns, SaaS launches, and documentary films.</li>
+              <li>Paired After Effects and Cinema 4D visuals with custom score, foley, and mixing in Logic Pro.</li>
+            </ul>
+
+            <div class="cv-row">
+              <strong>Junior Motion Designer Intern (Contract) — Netflix</strong>
+              <span>Hybrid Internship</span>
+            </div>
+            <ul>
+              <li>Crafted motion graphics sequences, kinetic typography, and promotional visual assets aligned with studio guidelines.</li>
+            </ul>
+
+            <div class="cv-row">
+              <strong>Live Audio &amp; FM Translation Coordinator — Lucknow</strong>
+              <span>March 2026</span>
+            </div>
+            <ul>
+              <li>Coordinated FM radio translation frequencies and receiver equipment distribution for an 18,000-person live gathering.</li>
+            </ul>
+          </div>
+
+          <div class="cv-section">
+            <h4>SKILLS &amp; APPLICATIONS</h4>
+            <ul>
+              <li><strong>Core Skills:</strong> 2D Motion Design · Sound Design · AI-Assisted 3D Modelling · Video Editing · Music Production &amp; Mixing · Brand &amp; UI/UX Design</li>
+              <li><strong>Applications:</strong> After Effects · Cinema 4D · Blender · Premiere Pro · Logic Pro · Figma · Framer</li>
+            </ul>
+          </div>
+
+          <div class="cv-section">
+            <h4>CERTIFICATIONS &amp; EDUCATION</h4>
+            <ul>
+              <li><strong>Certifications:</strong> School of Motion (Professional Motion Design Certificate) · Ben Marriott (Motion Design &amp; Animation Certificate) · CalArts via Coursera (Graphic Design Specialization)</li>
+              <li><strong>Indian Institute of Management Bangalore:</strong> BBA in Digital Business &amp; Entrepreneurship (2026 – Present)</li>
+              <li><strong>Grade 12 (ISC Board):</strong> (2022) · <strong>Grade 10 (ICSE Board):</strong> 96.4% (2020)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06. Scattered FAQ Section -->
+    <section id="faq" class="grid-paper-section section-border-top">
+      <div class="container">
+        <div class="faq-scatter-grid">
+          <div class="faq-pill pill-pink tilt-ccw-1" tabindex="0">
+            <strong>What can you design &amp; produce?</strong>
+            <p>2D/3D motion reels, SaaS launch videos, sound design, music mixes, and Figma/Framer UI systems.</p>
+          </div>
+
+          <div class="section-header-styled faq-center-header">
+            <div class="folded-note-badge note-sky">
+              <span class="note-icon bg-blue">?</span>
+              <span class="note-clip"></span>
+              <span class="note-label">FAQs</span>
+            </div>
+            <h2>ANSWER BEFORE<br>WE START</h2>
+          </div>
+
+          <div class="faq-pill pill-lime tilt-cw-1" tabindex="0">
+            <strong>Do you handle both visuals &amp; audio?</strong>
+            <p>Yes—motion and audio are built together from day one using After Effects, Cinema 4D, and Logic Pro.</p>
+          </div>
+
+          <div class="faq-pill pill-sky tilt-cw-1" tabindex="0">
+            <strong>How fast can we start?</strong>
+            <p>Send your brief below via the "Let's Talk Form" or email me at: <strong>theomarkartik@gmail.com</strong></p>
+          </div>
+
+          <div class="faq-pill pill-mint tilt-ccw-1" tabindex="0">
+            <strong>What is your workflow?</strong>
+            <p>Concept &amp; storyboard → 2D/3D motion look-dev → custom foley &amp; score mix → final master delivery.</p>
+          </div>
+
+          <div class="faq-pill pill-lemon tilt-cw-2" tabindex="0">
+            <strong>What do you need from me to get started?</strong>
+            <p>Your project goal, target timeline, brand assets (if any), and reference mood.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 07. Rounded Scenic Footer Card + Let's Talk Form -->
+  <footer id="contact" class="footer-wrapper">
+    <div class="scenic-footer-card">
+      <div class="footer-top-bar">
+        <div class="footer-social-circles">
+          <a href="mailto:theomarkartik@gmail.com" title="Email">✉</a>
+          <a href="https://github.com/Kartik-Omar" target="_blank" rel="noopener noreferrer" title="GitHub">GH</a>
+        </div>
+        <p class="footer-top-note">— Have an idea?<br>Let's turn it into a sharp<br>visual &amp; sonic experience.</p>
+      </div>
+
+      <div class="footer-main-split">
+        <div class="footer-headline-box">
+          <div class="folded-note-badge note-sky">
+            <span class="note-icon bg-blue">✦</span>
+            <span class="note-clip"></span>
+            <span class="note-label">Connect</span>
+          </div>
+          <h2>LET'S BUILD<br>SOMETHING<br>MEMORABLE</h2>
+        </div>
+
+        <form action="mailto:theomarkartik@gmail.com" method="post" enctype="text/plain" class="lets-talk-form">
+          <h3>Let's Talk</h3>
+          <div class="form-row">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name / Studio" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com" required>
+          </div>
+          <div class="form-row">
+            <label for="scope">Project Scope</label>
+            <input type="text" id="scope" name="scope" placeholder="2D/3D Motion, Sound Design, Editing...">
+          </div>
+          <div class="form-row">
+            <label for="message">Brief</label>
+            <textarea id="message" name="message" rows="3" placeholder="Tell me about your timeline and goals..."></textarea>
+          </div>
+          <button type="submit" class="btn-lets-chat">Let's chat →</button>
+        </form>
+      </div>
+
+      <div class="footer-bottom-strip">
+        <span class="footer-brand">KARTIK<sup>®</sup></span>
+        <div class="footer-nav-links">
+          <a href="#about">ABOUT</a>
+          <a href="#services">SERVICES</a>
+          <a href="#projects">PROJECTS</a>
+          <a href="#resume">RESUME</a>
+        </div>
+        <span class="footer-copy">© 2026 KARTIK OMAR · DELHI NCR, IN</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript for 1-Click PDF Resume Download (Native Print View) -->
+  <script>
+    function downloadResumePDF() {
+      const resumeContent = document.getElementById('resume-paper').innerHTML;
+      const originalBody = document.body.innerHTML;
+
+      document.body.innerHTML = `
+        <div style="font-family: 'Plus Jakarta Sans', sans-serif; padding: 30px; color: #181a1f; background: #ffffff;">
+          ${resumeContent}
+        </div>
+      `;
+      
+      window.print();
+      
+      document.body.innerHTML = originalBody;
+      location.reload();
+    }
+  </script>
+</body>
+</html>
